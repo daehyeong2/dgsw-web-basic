@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1학년 1반 수업 시간표</title>
+    <style>
+      body {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+      }
+      table {
+        padding: 10px;
+      }
+      caption {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+      th,
+      td {
+        padding: 5px 8px;
+        font-size: 18px;
+      }
+      td {
+        transition: all 0.3s ease-in-out;
+      }
+      td:hover {
+        background-color: black;
+        color: white;
+        cursor: pointer;
+      }
+      thead {
+        background-color: lightyellow;
+      }
+      .red {
+        color: red;
+        font-weight: 600;
+      }
+      .green {
+        color: green;
+        font-weight: 600;
+      }
+      .blue {
+        color: blue;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1">
+      <caption>
+        수업 시간표
+      </caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th>월</th>
+          <th>화</th>
+          <th>수</th>
+          <th>목</th>
+          <th>금</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>1교시</th>
+          <td>자율</td>
+          <td>수학</td>
+          <td rowspan="2" class="blue">웹기</td>
+          <td>진로</td>
+          <td class="blue">파이</td>
+        </tr>
+        <tr>
+          <th>2교시</th>
+          <td rowspan="2" class="blue">웹기</td>
+          <td>사회</td>
+          <td>영어</td>
+          <td>수학</td>
+        </tr>
+        <tr>
+          <th>3교시</th>
+          <td>과학</td>
+          <td class="green">컴일</td>
+          <td>사회</td>
+          <td>과학</td>
+        </tr>
+        <tr>
+          <th>4교시</th>
+          <td>과학</td>
+          <td>체육</td>
+          <td>음악</td>
+          <td>체육</td>
+          <td class="green">컴일</td>
+        </tr>
+        <tr>
+          <th>5교시</th>
+          <td>음악</td>
+          <td class="green">컴일</td>
+          <td rowspan="2" class="blue">파이</td>
+          <td>영어</td>
+          <td>창체</td>
+        </tr>
+        <tr>
+          <th>6교시</th>
+          <td>수학</td>
+          <td rowspan="2" class="blue">파이</td>
+          <td rowspan="2" class="blue">파이</td>
+          <td rowspan="2">집</td>
+        </tr>
+        <tr>
+          <th>7교시</th>
+          <td>사회</td>
+          <td class="green">컴일</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+.book1 {
+    list-style-type: square;
+}
+
+.book2 {
+    list-style-type: decimal-leading-zero;
+}
