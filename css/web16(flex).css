@@ -1,0 +1,15 @@
+
+.container {
+    display: flex;
+    border: 1px solid black;
+    width: 40%;
+    height: 200px;
+    flex-wrap: wrap;
+}
+
+.box {
+    padding: 5px 45px;
+    margin: 5px;
+    width: 80px;
+    background-color: palevioletred;
+}
